@@ -1,13 +1,74 @@
-* Cambiar el color de fondo de la página */
+
+/* Estilos para body*/
+
 body {
-    background-color: lightgrey;
+    background-color: #040405;
+    
+
+
+}
+div{
+
+    display: flex;
+    justify-content: center;
+    
+   
+      
+
 }
 
+
+/* Botones */
+
+button{
+       background-color: #1E1E1E;
+       color: white;
+       padding: 10px 20px;
+       border: none;
+       border-radius: 10px;
+       align-items: center;
+       height: 200;
+    
+}
+
+
 /* Cambiar el color del texto */
+span{
+     color: white;
+     font-size: 30px;
+
+}
+/* estilos para el encabezzado */
 h1 {
     color:white;
+    padding: 0%;
+    
+   
+    
 }
+/* Estilos para H3*/
 
 h3{
     color: white;
+    display: flex;
 }
+/* Estilos para h2*/
+h2{ 
+    color: white;
+     
+}
+
+input{
+    color: black;
+    border: 1px;
+    padding: 0%;
+    height: 40px;
+
+
+}
+
+
+    
+
+
+
