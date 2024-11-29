@@ -19,6 +19,14 @@ div{
       
 
 }
+header nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+}
+main {
+    display: flex;
+}
 
 
 /* Botones */
@@ -104,13 +112,34 @@ footer{
     align-items: center; /* Centra los elementos horizontalmente */
   }
 
-  Artistas{
+.Artistas{
 
     display: flex;
     align-items: center;
-    width: 300px;
+    gap: 20px;
+    flex-wrap: wrap;    
   }
+.Artistas > div {
+    display: flex;
+    flex-direction: column;
+}
 
+
+
+#container {
+    display: flex;
+    align-items: start;
+    flex-wrap: wrap;
+}
+.song {
+    display: flex;
+    flex-direction: column;
+    width: 100px;
+    color: white;
+}
+.song img {
+    width: 100%;
+}
 
 
 
