@@ -1,3 +1,8 @@
+/* 
+    SETEA LOS ESTILOS
+*/
+
+
 
 /* Estilos para body*/
 
@@ -19,11 +24,22 @@ div{
       
 
 }
-header nav {
+.navbar__nav {
     display: flex;
     justify-content: space-between;
     padding: 30px;
 }
+
+.navbar__nav__logo span {
+    /* cambia el tamaño del texto */
+}
+
+.navbar__nav__search {
+    /* Dale estilos a la barra de buscar */
+}
+
+
+
 main {
     display: flex;
 }
@@ -95,17 +111,6 @@ div{
 
 }
 
-
-
-/* Estilos para footer*/
-
-footer{
-    display: flex;
-    justify-content: center;
-    margin-top: 300px;
-    text-align: center;
-}
-
 .contenedor {
     display: flex;
     flex-direction: column;
@@ -143,6 +148,19 @@ footer{
 
 
 
+
+.footer {
+
+    display: flex;
+    justify-content: center;
+    margin-top: 300px;
+    text-align: center;
+}
+
+
+.footer__item {
+    /* dale display flex y flex-direction:colum a estos items para ordenarlos igual que el figma*/
+}
     
 
 
