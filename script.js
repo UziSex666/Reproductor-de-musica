@@ -29,13 +29,11 @@ const crearcancion = (songdata) => {
 //     }
 // })
 
-console.log (axios)
-
 axios.get("https://api.institutoalfa.org/api/songs")
 .then((res) => {
 
 
-    const canciones =res.data.songs
+    const canciones = res.data.songs
 
     canciones.map((cancion) => {
         document.getElementById ("container")
